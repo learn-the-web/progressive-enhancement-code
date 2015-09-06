@@ -1,0 +1,57 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  background-color: #e2e2e2;
+
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+main {
+  display: block;
+  margin: 2em auto;
+  max-width: 30em;
+  min-height: 35em;
+  overflow: hidden;
+  padding: 4em 2em 1em;
+  position: relative;
+
+  background-color: #444;
+  border-radius: 4px;
+
+  color: #fff;
+  text-align: center;
+}
+
+.no-csstransforms main {
+  overflow: visible;
+}
+
+h1 {
+  left: -2.2em;
+  margin: 0;
+  padding: .2em 2em;
+  position: absolute;
+  top: 1.4em;
+
+  background-color: hotpink;
+  transform: rotate(-34deg);
+
+  text-align: center;
+}
+
+.no-csstransforms h1 {
+  left: -.1em;
+  padding-left: .6em;
+  padding-right: .6em;
+  top: .2em;
+}
