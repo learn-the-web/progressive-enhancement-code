@@ -1,4 +1,4 @@
-# Progressive enhancement code
+# Progressive enhancement code samples
 
 Code samples for the progressive enhancement tutorial.
 
